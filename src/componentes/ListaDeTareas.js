@@ -32,7 +32,7 @@ function ListaDeTareas() {
   
   return (
     <>
-      <TareaFormulario onSubmit={agregarTarea} />
+      <TareaFormulario envio={agregarTarea} />
       <div className='tareas-lista-contenedor'>
         {
           tareas.map((tarea) =>
